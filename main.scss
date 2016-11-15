@@ -1,13 +1,26 @@
 body
 {
-    background-color: #7F7A71;
+    background-color: #948E82;
+    color: #D1C8B7;
+    font-family: 'Mandali', sans-serif;
     
     #main
     {
-        background-color: #000;
+        background-color: #58524C;
         padding: 10%;
         margin-top: 10em;
-        
-        #buttons { margin-right: .5em; }
+        border-radius: 1%;
+        .quote_line { font-size: 1.1em; }
+        .author_line
+        {
+            text-align: right;
+            font-size: .8em;
+        }
+        #buttons { margin-top: 1em; }
     }
+}
+
+button
+{
+    background-color: #938D81;
 }

@@ -1,10 +1,21 @@
 body {
-  background-color: #7F7A71; }
+  background-color: #948E82;
+  color: #D1C8B7;
+  font-family: 'Mandali', sans-serif; }
   body #main {
-    background-color: #FFF;
+    background-color: #58524C;
     padding: 10%;
-    margin-top: 10em; }
+    margin-top: 10em;
+    border-radius: 1%; }
+    body #main .quote_line {
+      font-size: 1.1em; }
+    body #main .author_line {
+      text-align: right;
+      font-size: .8em; }
     body #main #buttons {
-      margin-right: .5em; }
+      margin-top: 1em; }
+
+button {
+  background-color: #938D81; }
 
 /*# sourceMappingURL=main.css.map */
