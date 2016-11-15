@@ -9,6 +9,13 @@ function write_quote()
     var pick = (Math.random() * json.length) | 0;
     $(".quote_line").html(quote(pick) + ".");
     $(".author_line").html(author(pick) + ".");
+    update_tweet_button(quote(pick), author(pick));
+}
+
+function update_tweet_button(quote, author)
+{
+    var url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("\"" + quote + "\"") + " -" + encodeURIComponent(author);
+    $(".tweet").prop("href", url);
 }
 
 var json;
